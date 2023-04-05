@@ -2,7 +2,7 @@ import {authAPI} from 'api/todolists-api'
 
 import {createSlice, PayloadAction} from "@reduxjs/toolkit";
 import {AppThunk} from "app/store";
-import {authActions} from "features/Login/auth-reducer";
+import {authActions} from "features/Auth/auth-reducer";
 
 
 const initialState = {
